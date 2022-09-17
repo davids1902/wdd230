@@ -11,6 +11,8 @@
 
 }
 
+.header-container{display: block; margin: 0 auto 0 auto; height: auto; width: 200px;}
+
 .header-div img{width:100px;float:left;display: block;}
 
 .header-div-name{height:100px;float:left; display: block; vertical-align: middle; margin:0 auto 0 auto;}
