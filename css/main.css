@@ -11,12 +11,9 @@
 
 }
 
-.header-div img{width:100px;}
+.header-div img{width:100px;float:left;}
 
-
-header-div-img{}
-
-header-div-name{}
+.header-div-name{float:left;}
 
 
 
