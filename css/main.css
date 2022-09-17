@@ -11,9 +11,9 @@
 
 }
 
-.header-div img{width:100px;float:left;}
+.header-div img{width:100px;float:left;display: block;}
 
-.header-div-name{float:left;}
+.header-div-name{height:100px;float:left; display: block;}
 
 
 
