@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.container div {border: 1px grey solid;}
+.container {border: 1px grey solid;}
 
 .footer-block{ background-color: aqua; display: block; position: relative; width: auto; text-align: center;}
 
@@ -19,5 +19,10 @@
   
   /* This goes in the LARGE CSS file */
   @media only screen and (min-width: 1024px) {
+
     .container {grid-template-columns: 1fr 1fr 1fr;}
+
+   
+
   }
+
