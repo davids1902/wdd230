@@ -1,6 +1,13 @@
 
 
-.header-block{ background-color: aqua; display: block; position: relative; width: auto;text-align: center;}
+.header-block{ 
+    background-color:rgb(35, 36, 65); 
+    display: block; 
+    position: relative; 
+    width: auto;
+    text-align: center;
+    color: whitesmoke;
+}
 
 span.container{  
     display: grid;
@@ -10,7 +17,13 @@ span.container{
 
 span.container {border: 1px grey solid;}
 
-.footer-block{ background-color: aqua; display: block; position: relative; width: auto; text-align: center;}
+.footer-block{ 
+    background-color:rgb(35, 36, 65);  
+    display: block; position: relative; 
+    width: auto; 
+    text-align: center;
+    color:whitesmoke;
+}
 
 /* This goes in the MEDIUM CSS file */
 @media only screen and (min-width: 760px) {
@@ -22,14 +35,40 @@ span.container {border: 1px grey solid;}
 
     span.container {grid-template-columns: 1fr 1fr 1fr;}
 
-    .item1{background-color: chocolate;}
+    .item{ margin: 10px; text-align: justify;}
 
-    .item2{background-color:lightseagreen;}
+    .item-content{ background-color: rgb(218, 216, 233); display: block; padding: 10px;}
 
-    .item3{background-color:darkolivegreen;}
+    .item-tittle h2{  padding: 10px; text-align: center;}
+
+    .item-tittle { 
+        background-color:rgb(35, 36, 65); 
+        color: whitesmoke; 
+        position: relative; 
+        display: block;
+        border-radius:10px 10px 0px 0px;
+    }
+
+    .footer-block{ 
+        background-color:rgb(35, 36, 65);  
+        display: block; position: relative; 
+        width: auto; 
+        text-align: center;
+        color:whitesmoke;
+        padding: 3px;
+    }
 
     
 
 
-     }
+    }
+
+    #currentdate{display: block;}
+
+
+
+    
+
+
+     
 
