@@ -35,11 +35,11 @@ span.container {border: 1px grey solid;}
 
     span.container {grid-template-columns: 1fr 1fr 1fr;}
 
-    .item{ margin: 10px; text-align: justify;}
+    .item{ margin: 10px;}
 
-    .item-content{ background-color: rgb(218, 216, 233); display: block; padding: 10px;}
+    .item-content{ background-color: rgb(218, 216, 233); display: block; padding: 10px; text-align: justify; }
 
-    .item-tittle h2{  padding: 10px; text-align: center;}
+    .item-tittle {  padding: 10px; text-align: center;}
 
     .item-tittle { 
         background-color:rgb(35, 36, 65); 
