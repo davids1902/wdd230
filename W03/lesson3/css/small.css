@@ -167,6 +167,8 @@ footer {
         background-color: #301f46;
     }
 
+	.active{background-color: #7c639c;}
+
     header,
 footer {
 	background-color: #180a36;
@@ -177,6 +179,8 @@ footer {
 	padding: 10px;
     text-align: center;
 }
+
+
     
     
 }
