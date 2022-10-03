@@ -7,6 +7,7 @@
     width: auto;
     text-align: center;
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
 }
 
 span.container{  
@@ -17,17 +18,95 @@ span.container{
 
 span.container {border: 1px grey solid;}
 
-.footer-block{ 
-    background-color:rgb(35, 36, 65);  
-    display: block; position: relative; 
-    width: auto; 
-    text-align: center;
-    color:whitesmoke;
-}
+.item{ margin: 10px;}
+
+    .item-content{ 
+        background-color: rgb(218, 216, 233); 
+        display: block; 
+        padding: 10px; 
+        text-align: justify; 
+      
+    }
+
+    .item-content img{ 
+        background-color: rgb(218, 216, 233); 
+        display: block; 
+        padding: 10px; 
+        text-align: justify; 
+        margin: 0 auto 0 auto;
+      
+    }
+
+    .item-content{
+
+        margin:0 auto 0 auto; 
+        display: block;
+        position: inherit;
+
+    }
+
+    .item-tittle {  
+        padding: 10px; 
+        text-align: center;
+    }
+
+    .item-tittle { 
+        background-color:rgb(35, 36, 65); 
+        color: whitesmoke; 
+        position: relative; 
+        display: block;
+        border-radius:10px 10px 0px 0px;
+    }
+
+    .footer-block{ 
+        background-color:rgb(35, 36, 65);  
+        display: block; position: relative; 
+        width: auto; 
+        text-align: center;
+        color:whitesmoke;
+        padding: 3px;
+    }
+
 
 /* This goes in the MEDIUM CSS file */
 @media only screen and (min-width: 760px) {
     span.container span {grid-template-columns: 1fr 1fr;}
+
+    .item{ margin: 10px;}
+
+    .item-content{ 
+        background-color: rgb(218, 216, 233); 
+        display: block; 
+        padding: 10px; 
+        text-align: justify; 
+        
+
+    }
+
+    .item-tittle {  
+        padding: 10px; 
+        text-align: center;
+    }
+
+    .item-tittle { 
+        background-color:rgb(35, 36, 65); 
+        color: whitesmoke; 
+        position: relative; 
+        display: block;
+        border-radius:10px 10px 0px 0px;
+    }
+
+    .footer-block{ 
+        background-color:rgb(35, 36, 65);  
+        display: block; position: relative; 
+        width: auto; 
+        text-align: center;
+        color:whitesmoke;
+        padding: 3px;
+    }
+
+
+
   }
   
   /* This goes in the LARGE CSS file */
@@ -37,7 +116,14 @@ span.container {border: 1px grey solid;}
 
     .item{ margin: 10px;}
 
-    .item-content{ background-color: rgb(218, 216, 233); display: block; padding: 10px; text-align: justify; }
+    .item-content{ 
+        background-color: rgb(218, 216, 233); 
+        display: block; 
+        padding: 10px; 
+        text-align: justify; 
+        
+
+    }
 
     .item-tittle {  padding: 10px; text-align: center;}
 
