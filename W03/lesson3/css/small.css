@@ -169,6 +169,18 @@ footer {
 
 	.active{background-color: #7c639c;}
 
+	.fonts-tittle{
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+		font-weight: bold; 
+		font-size: large;
+		color:#2C6BA5;
+	}
+	.fonts-par{
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+		font-size: small;
+		color:#2C2C2C;
+	 }
+
     header,
 footer {
 	background-color: #180a36;
