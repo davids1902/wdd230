@@ -9,7 +9,7 @@
  *    IE on Windows Phone and in iOS.
  */
 
-html {
+ html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -21,6 +21,10 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+
+ p{
+  text-align: justify;
+}
 
 body {
   margin: 0;
@@ -47,6 +51,14 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color:azure;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 0.67em 0;
+  
+  color: rgb(4, 49, 4); 
 }
 
 /* Grouping content
@@ -57,17 +69,23 @@ h1 {
  * 1. Add the correct display in IE.
  */
 
-figcaption,
-figure,
+picture,
 main { /* 1 */
   display: block;
+  
+}
+
+caption{
+  display: block;
+  text-align: center;
+
 }
 
 /**
  * Add the correct margin in IE 8.
  */
 
-figure {
+picture {
   margin: 1em 40px;
 }
 
@@ -445,3 +463,4 @@ template {
 [hidden] {
   display: none;
 }
+

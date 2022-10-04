@@ -65,6 +65,11 @@ footer{
 
 }
 
+footer-text{
+    padding: 2px;
+    margin-top: 30px;
+}
+
 
 
 #currentdate{display: block;}
