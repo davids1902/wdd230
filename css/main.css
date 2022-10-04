@@ -1,49 +1,52 @@
+.body{
+    margin: auto;
+    width: 60%;
+    font-size: 15px;
+    font-family: 'Nunito Sans', 'Calibri', 'Veranda';
+}
 
+#content{
 
-header{
-
-    background-color: rgb(69, 112, 190);
-    display: block;
-    height:200px;
-    width: 100%;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px #000;
+    margin: 0 auto 0 auto;
 
 
 }
 
-.header-container{
-    display: block; 
-    margin: 0 auto 0 auto; 
-    height: auto; 
-    width: 500px;}
+header{
 
-.header-div img{
-    width:100px;
-    float:left;
-    display: block; 
-    margin-right: 10px;
-    margin-top: 30px;
-    line-height: 200px;
-    box-shadow: 2px 2px #000;
-    }
+    background-color: rgb(69, 112, 190);
+    margin: 0 auto 0 auto;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #000;
+    display: flex;
+    justify-content:space-around;
+    padding: 1%;
 
-.header-div-name{ height:100px;float:left; display: block; margin:0 auto 0 auto;}
-
-.header-div-name h1{
-    vertical-align: middle;
-    line-height: 100px; 
-    font-weight: bold; 
-    color: azure;
-    text-shadow: 2px 2px #000;}
-
-h2{ text-shadow: 2px 2px 5px black;}
+}
 
 
-.content-div-content{
+
+header img{
+    width: 100px;
+    height: 130;
+}
+
+
+h1{color: aliceblue;}
+
+h2{ text-shadow: 2px 2px 5px black; text-align: center;}
+
+
+main {
     display: block; 
     margin: 0 auto 0 auto;
-    width: 400px;
+    width: 50%;
+    }
+
+
+li {
+    margin: 10px;
     }
 
 
@@ -51,14 +54,17 @@ footer{
 
     background-color: rgb(69, 112, 190);
     display: block;
-    height:100px;
+    height:50px;
     width: 100%;
     border-radius: 25px;
     text-align: center;
     box-shadow: 2px 2px 5px #000;
+    color: azure;   
+    grid-template-columns: 1fr;
+
 
 }
 
-.footer-div p{ margin-top: 10px; color: azure;}
+
 
 #currentdate{display: block;}
