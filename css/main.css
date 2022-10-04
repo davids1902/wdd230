@@ -1,6 +1,6 @@
 
 
-.header-div{
+header{
 
     background-color: rgb(69, 112, 190);
     display: block;
@@ -47,7 +47,7 @@ h2{ text-shadow: 2px 2px 5px black;}
     }
 
 
-.footer-div{
+footer{
 
     background-color: rgb(69, 112, 190);
     display: block;
