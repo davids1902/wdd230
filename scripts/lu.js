@@ -1,37 +1,16 @@
+const year = document.querySelector("#year");
+const YEAR = new Date();
+year.innerHTML= YEAR.toLocaleDateString('en-us',{year:'numeric'});
 
 
-    let daynames=
-    ["Sunday",
-    "Sunday",
-    "Sunday",
-    "Sunday",
-    "Sunday",
-    "Sunday",
-    "Sunday"];
-    
-    let months = 
-    [   "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ];
-               
-    let d = new Date();
-    let dayName = daynames[d.getDay()];
-    let monthName = months[d.getMonth()];
-    let year = d.getFullYear();
-    let fulldate = dayName + " , " + monthName + " " + d.getDate() + " , " + d.getFullYear();
-    
-    document.getElementById("currentdate").textContent = fulldate;
+let text = document.lastModified;
+//document.getElementById("currentDate").innerHTML = text;
+// document.querySelector("#currentDate") = "Hola";
 
-  
+const LMsel = document.querySelector("#currentDate");
+const LMvar = new Date();
+const details = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+LMsel.innerHTML= LMvar.toLocaleDateString('en-us',details);
+
 
 
