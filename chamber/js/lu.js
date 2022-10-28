@@ -32,6 +32,17 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
+
+//Banner-------------------------------------------------
+const dayNumber = now.getDay();
+const element = document.getElementById("banner");
+
+if (dayNumber == 1 || dayNumber == 2 ) {
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}
+
   
 
 
