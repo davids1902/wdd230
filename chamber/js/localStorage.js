@@ -10,11 +10,11 @@ if (numvisitor !== 0) {
     localStorage.setItem("dateVisited", today);
     difference = today - lastVisit
     daysPassed = Math.round(difference / MSinDay)
-    daysPassed = "Welcome, this is your first visit!"
+    daysPassed = "Welcome!"
 }else {
     localStorage.setItem('visitor', 1)
     localStorage.setItem("dateVisited", today);
-    daysPassed = "I'm glad you're coming back to visit :)"
+    daysPassed = "Thank you for returning."
 
 }
 
