@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guayaquil Chamber of Commerce</title>
+    <title>Guayaquil Chamber of Commerce: Discover</title>
     <meta name="description" content="Guayaquil Chamber of Commerce - By David R. Carrera">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet">    <link href="css/small.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
@@ -15,9 +15,6 @@
     <link href="css/large.css" rel="stylesheet">
 </head>
 <body>
-    <div id="banner">
-        <p>Join us for the chamber meet and greet on Tuesday at 7:00 p.m.</p>
-    </div>
     <header>
         <div class="logo">
             <picture>
@@ -52,64 +49,45 @@
     <nav>
         <button id="hamburguerBtn"><span>&#9776;</span><span>x</span></button>
         <ul id="primaryNav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>    
         </ul>
     </nav>
-    <main class="main-index">
-        <picture class="hero-img">    
+    <main class="main-discover">
+        <p class="lastVisit"><span>Days since last visit: </span><span class="visitor"></span></p>
+        <section class="description">
+            <h1>Guayaquil: "La Perla del Pacífico". (The Pacific's Pearl)</h1>
+            <p>Guayaquil, officially "Santiago de Guayaquil", is the second largest city in Ecuador and also the nation's main port. The city is the capital of Guayas Province and the seat of Guayaquil Canton.
 
-            <img src="img/heroSrc.webp " alt="Hero Img">
-        </picture>
-        
-        <div class="mainGrid">
-            <div class="hero">
-                <div class="hero-txt">
-                    <h2>Welcome to Guayaquil</h2>
-                    <button>Join the chamber</button>
-                </div>
-            </div>
-            <div class="event">
-                <h2> 📅 Ribbon Cutting</h2>
-                <h3>🔹 The Diamond Shack</h3>
-                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm. <a href="#">More Info...</a></p>
-            </div>
-            <div class="weather">
-                <h2>Current Weather</h2>
-                <div class="cloud">
-                    <img src="img/weather.webp" alt="weather">
-                    <p><span id="temp">27</span>&deg;C</p>
-                </div>
-                <h3>Sunny</h3>
-                <hr>
-                <p>current wind speed is <span id="speed">40</span> mph</p>
-                <p id="chill">message</p>
-            </div>
-            <div class="newRelease">
-                <h2>New release</h2>
-                <p>Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut.Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta.</p>
-            </div>
-            <div class="spotlight1">
-                <h2>Trucks</h2>
-                <img src="img/transport.webp" alt = "Transport">
-                <h3>Logistic cargo solutions</h3>
-                <hr>
-                <p>info@trucksgye.com | +593967076683</p>
-            </div>
-            <div class="spotlight2">
-                <h2>Neocoders</h2>
-                <img src="img/code.webp" alt = "neocoders">
-                <p>Social program of Coding. </p>
-                <hr>
-                <p>info@neocoders.com | +593967076683</p>
-            </div>
-            <div class="join">
-                <button>Learn more</button>
-                <p>1000+ opportunities are in the box exclusively for his members. The chamber of Guayaquil is waiting for you!</p>
-            </div>
+                The city is located on the west bank of the Guayas River, which flows into the Pacific Ocean at the Gulf of Guayaquil.
+                
+                Between January and April, the climate is hot and humid with heavy rainfall, especially during El Niño years when it increases dramatically and flooding usually occurs. The rest of the year (from May through December), however, rainfall is minimal due to the cooling influence of the Humboldt Current, with usually cloudy mornings and afternoons, and evening breezes. </p>
+        </section>
+
+
+
+           
+        <div class="gallery">
+
+            <figure class="img"><img loading="lazy" src="img/tourism/puerto.webp">
+                 <div class="caption">Guayaquil Port</div>
+            </figure>
+    
+            <figure class="img"><img  loading="lazy" src="img/tourism/santana.webp">
+                <div class="caption">Santana Port</div>
+            </figure>
+    
+            <figure class="img"><img  loading="lazy" src="img/tourism/terminal.webp">
+                <div class="caption">Terminal Terrestre of Guayaquil</div>
+            </figure>
+               
         </div>
+    
+
+
+
     </main>
     <footer>
         <div class="adress">
@@ -145,6 +123,7 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/localStorage.js"></script>
+    <script src="js/lazyLoading.js"></script>
 </body>
 </html>
