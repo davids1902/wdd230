@@ -73,7 +73,7 @@
     max-width: 1000px;
     margin: 30px auto 30px auto;
     display: grid;
-    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    /* grid-template-columns: repeat(1fr, 1fr, 1fr); */
     justify-content: center;
     text-align: center;
     display: grid;
