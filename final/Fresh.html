@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Food | Fresh</title>
+    <meta name="description" content="Final Project WDD230 - David R. Carrera E.">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+        
+        <div class="logo">
+            <a href="Index.html">
+                <img src="images/logo.webp"  loading="lazy" alt="Bountiful Food logo">
+            </a>
+        </div>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+            <li class="active"><a href="Index.html">Home</a></li>
+            <li><a href="Fresh.html">Fresh</a></li>
+            <li><a href="AboutUs.html">About Us</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Create your own blend!</h1>
+        <div id="form-input"> 
+            <form class="form-drink" onsubmit="openForm();return false;">
+                <fieldset class="contact-form">
+                    <legend>Customer intormation:</legend>
+                    <label class="top" for="fname">Name: * <input type="text" name="fname" id="fname" required></label>
+                    <label class="top" for="email">Email: * <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+                    <label class="top" for="phone">Telephone: * <input type="tel" name="phone" id="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select your fruits:</legend>
+
+                    <div class="flavors">
+                        <label class="top">1.
+                            <select id="fruit1" name="fruit1"></select>
+                        </label>
+                        <label class="top">2.
+                            <select id="fruit2" name="fruit2"></select>
+                        </label>
+                        <label class="top">3.
+                            <select id="fruit3" name="fruit3"></select>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="top" for="instructions">Include specifications: <textarea id="instructions" name="instructions"></textarea></label>
+                    </div>
+                </fieldset>
+                <input id="submit-button" class="submitBtn button-pink" type="submit" value="SEND">
+            </form>
+        </div>
+        <div id="form-output">
+            <form action="#" class="form-data">
+              <fieldset class="order">
+                <legend>Your order</legend>
+                <h1>Contact Info</h1>
+                <p id="order-fname"></p>
+                <p id="order-email"></p>
+                <p id="order-phone"></p>
+                <p id="order-date"></p>
+                <br>
+                <h1>Fruit</h1>
+                <p id="order-fruit1"></p>
+                <p id="order-fruit2"></p>
+                <p id="order-fruit3"></p>
+                <p id="order-instructions"></p>
+              </fieldset>
+              <fieldset class="nutrition">
+                <legend>Nutrition</legend>
+                <h1>Calories Total: <span id="calories"></span></h1>
+                <p>Carbs <span id="carbs"></span>(g)</p>
+                <p>Protein <span id="protein"></span>(g)</p>
+                <p>Sugar <span id="sugar"></span>(g)</p>
+                <p>Fat <span id="fat"></span>(g)</p>
+              </fieldset>
+              <button type="button" class="submitBtn button-pink" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="botones">
+            <div class="contact">
+                <a href="tel:+5939067076683"><img src="images/phone.png"  loading="lazy" alt="Phone number"></a>
+                <a class="phone-contact" href="tel:+59397076683">+(593) 967076683</a> <br>
+                <a href="mailto:info@bountifulfruit.com"><img src="images/email.png" loading="lazy" alt="mail"></a>
+                <a class="mail-contact" href="mailto:info@bountifulfruit.com">info@bountifulfruit.com</a><br>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank"><img src="images/fb.png"  loading="lazy" alt="facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/tw.png" loading="lazy" alt="twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/ig.png"  loading="lazy" alt="instagram"></a>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="Index.html"><img src="images/logo.webp"  loading="lazy" alt="Logo"></a>
+        </div>
+        <hr>
+        <div class="baseFooter"><p>&copy;<span id="year">2022</span> Final Project | <b>David Carrera E.</b> | WDD 230 | Last Modified: <span id="lastTimeModified"></span></p></div>
+    </footer>
+
+    <script src="js/scriptsMain.js"></script>
+    <script src="js/fresh.js"></script>
+    <script src="js/fresh-event.js"></script>
+</body>
+</html>
