@@ -52,66 +52,25 @@
     <nav>
         <button id="hamburguerBtn"><span>&#9776;</span><span>x</span></button>
         <ul id="primaryNav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="contact.html">Contact</a></li>    
         </ul>
     </nav>
-    <main class="main-index">
-        <picture class="hero-img">    
-
-            <img src="img/heroSrc.webp " alt="Hero Img">
-        </picture>
-        
-        <div class="mainGrid">
-            <div class="hero">
-                <div class="hero-txt">
-                    <h2>Welcome to Guayaquil</h2>
-                    <button>Join the chamber</button>
-                </div>
-            </div>
-            <div class="event">
-                <h2> 📅 Ribbon Cutting</h2>
-                <h3>🔹 The Diamond Shack</h3>
-                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm. <a href="#">More Info...</a></p>
-            </div>
-            <div class="weather">
-                <h2>Current Weather</h2>
-                <div class="cloud">
-                    <img src="img/weather.webp" alt="weather">
-                    <p><span id="temp">27</span>&deg;C</p>
-                </div>
-                <h3>Sunny</h3>
-                <hr>
-                <p>current wind speed is <span id="speed">40</span> mph</p>
-                <p id="chill">message</p>
-            </div>
-            <div class="newRelease">
-                <h2>New release</h2>
-                <p>Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut.Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta.</p>
-            </div>
-            <div class="spotlight1">
-                <h2>Trucks</h2>
-                <img src="img/transport.webp" alt = "Transport">
-                <h3>Logistic cargo solutions</h3>
-                <hr>
-                <p>info@trucksgye.com | +593967076683</p>
-            </div>
-            <div class="spotlight2">
-                <h2>Neocoders</h2>
-                <img src="img/code.webp" alt = "neocoders">
-                <p>Social program of Coding. </p>
-                <hr>
-                <p>info@neocoders.com | +593967076683</p>
-            </div>
-            <div class="join">
-                <button>Learn more</button>
-                <p>1000+ opportunities are in the box exclusively for his members. The chamber of Guayaquil is waiting for you!</p>
-            </div>
+   
+    <main class="main-directory">
+        <h1>Business Directory</h1>
+        <div class="menu">
+            <img id="grid" src="https://img.icons8.com/ios/512/squared-menu.png" alt="grid" style="width: 50px;">
+            <img id="list" src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/512/external-menu-user-interface-anggara-basic-outline-anggara-putra-2.png" alt="list" style="width: 50px;">
+        </div>
+        <div class="cards">
         </div>
     </main>
+
+
     <footer>
         <div class="adress">
             <picture>
@@ -147,5 +106,6 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/directory.js"></script>
 </body>
 </html>
