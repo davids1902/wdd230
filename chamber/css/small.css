@@ -397,7 +397,7 @@ fieldset{
 } 
 
 form input {border: 1px solid #E5E5E5;}
-form label.top input:required {border-left: red solid 6px;}
+form label.top input:required {border-left: rgb(15, 48, 99) solid 6px;}
 form label.top input:required:valid {border-left: green solid 6px;}
 
 .subcont {
