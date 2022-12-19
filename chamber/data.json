@@ -1,7 +1,7 @@
 {
     "business": [
         {
-          "logourl": "http://lacevicheriaguayaca.com/wp-content/uploads/2021/04/Logo_LCG-mini-1.png",
+          "logourl": "https://lacevicheriaguayaca.com/wp-content/uploads/2021/04/Logo_LCG-mini-1.png",
           "name": "La Cevicheria Guayaca",
           "membership": "PREMIUM PLAN",
           "address": "Urdesa, Buenavista - Guayaquil",
@@ -9,12 +9,12 @@
           "website": "http://lacevicheriaguayaca.com/"
         },
         {
-          "logourl": "https://engicosas.com/images/New%20logo.png",
-          "name": "Engico SAS",
-          "membership": "Silver Membership",
-          "address": "Cl. 7 Sur #42-70, El Poblado, Medellín",
-          "phone": "(300) 4031060",
-          "website": "https://engicosas.com/"
+          "logourl": "https://agripac.com.ec/wp-content/themes/agritheme/assets/images/home-agripac-50.png",
+          "name": "AGRIPAC",
+          "membership": "PREMIUM PLAN",
+          "address": "Ceibos II Calle 2da, Guayaquil",
+          "phone": "(593) 042564411",
+          "website": "https://agripac.com.ec"
         },
         {
           "logourl": "https://www.dqisa.com/wp-content/uploads/2020/11/logo-dqi-footer.png",
