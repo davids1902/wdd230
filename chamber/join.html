@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guayaquil Chamber of Commerce</title>
+    <meta name="description" content="Guayaquil Chamber of Commerce - By David R. Carrera">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet">    <link href="css/small.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+        <p>Join us for the chamber meet and greet on Tuesday at 7:00 p.m.</p>
+    </div>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="img/logo.webp" alt="logo">
+            </picture>
+            <section class="headings">
+                <h2>GUAYAQUIL CHAMBER OF COMMERCE</h2>
+                <h2 class="slogan">We support progress.</h2>
+            </section>
+            <div class="social">
+
+                <a href="https://instagram.com" target="_blank">
+                    <img src="img/in-icon.webp" alt="Instagram">
+                </a>
+
+                <a href="https://facebook.com" target="_blank">
+                    <img src="img/fb-icon.webp" alt="facebook">
+                    
+                </a>
+
+                <a href="https://whatsapp.com" target="_blank">
+                    <img src="img/ws-icon.webp" alt="whatsapp">
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="img/tw-icon.webp" alt="twitter">
+                </a>
+            </div>
+        </div>
+        <div class="date"></div>
+    </header>
+    <nav>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>    
+        </ul>
+    </nav>
+   
+    <main class="join-main">
+        <form class="form-join" method="get" action="thankyou.html">
+            <fieldset>
+                <h1>Contact Information</h1>
+                <!-- first-name -->
+                <label class="top" for="first-name">First name* <input type="text" name="fname" id="first-name" required></label>
+
+                <!-- last-name -->
+                <label class="top" for="last-name">Last name* <input type="text" name="lname" id="last-name" required></label>
+
+                <!-- Title/position -->
+                <label class="top" for="title">Title/position <input type="text" name="title" pattern="^[a-zA-Z- ]{7,}$" id="title"></label>
+
+                <!-- email -->
+                <label class="top" for="email">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+
+                <!-- phone-number -->
+                <label class="top" for="phone">Phone-number* <input type="tel" name="phone" id="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <h2>Business Information</h2>
+                <!-- business-name -->
+                <label class="top" for="business-name">Business name* <input type="text" name="business-name" id="business-name" required></label>
+                
+                <!-- describe-business -->
+                <label class="top" for="describe-business">Describe your business <textarea id="describe-business" name="describe-business" placeholder="..."></textarea></label>
+            
+                <!-- date -->
+                <input type="hidden" name="datetime" id="todayDate">
+            </fieldset>         
+            
+            <fieldset class="membership">
+
+                <!-- Membership -->
+                <h2>Membership</h2>
+                <table>
+                    <tr>
+                        <td><label class="sbs" for="non-profit-membership"> <input type="radio" name="member-ship" id="non-profit-membership" value="NPMembership"> Non-Profit Membership</label></td>
+                        <td class="membership-beneficts">No fee - for non profit organizations - Advertisement e-mails about chamber events</td>
+                    </tr>
+                    <tr>
+                        <td><label class="sbs" for="bronze-membership"> <input type="radio" name="member-ship" id="bronze-membership" value="Bronze Membership"> Bronze Membership</label><br></td>
+                        <td class="membership-beneficts">$59,82 - Exclusive portfolio of benefits and additional services</td>
+                    </tr>
+                    <tr>
+                        <td><label class="sbs" for="silver-membership"> <input type="radio" name="member-ship" id="silver-membership" value="Silver Membership"> Silver Membership</label><br>
+                        </td>
+                        <td class="membership-beneficts">$125,25 - Access to events and various networking and relationship spaces</td>
+                    </tr>
+                    <tr>
+                        <td><label class="sbs" for="gold-membership"> <input type="radio" name="member-ship" id="gold-membership" value="Gold Membership"> Gold Membership</label><br>
+                        </td>
+                        <td class="membership-beneficts">$188,47 - Seminars - Participation in the affiliates meeting held every 2 years</td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <!-- button -->
+            <input class="submitBtn" type="submit" value="join">
+        </form>
+    </main>
+
+
+    <footer>
+        <div class="adress">
+            <picture>
+                <img src="img/logo.webp" alt="logo">
+            </picture>
+            <div class="footerText">
+                <p>Guayaquil Chamber of Commerce</p>
+                <p>Av. Francisco de Orellana</p>
+                <p>Guayaquil - Ecuador [090150]</p>
+            </div>
+        </div>
+        <div class="links">
+            <a href="mailto:info@gcoc.ec">info@gcoc.ec</a><br>
+            <a href="tel:+593967076683">+(593) 96-707-6683</a><br>
+            <a href="https://goo.gl/maps/S2FGd3t6AfvsMD4M7">See the map</a>
+        </div>
+        <div class="baseFooter">
+            <div class="footerText1">
+                <p>&copy;</p>
+                <p id="year" class="space"></p>
+                <p>Guayaquil chamber</p>
+                <p class="line"></p>
+            </div>
+            <p>David R. Carrera E.</p>
+            <p class="line"></p>
+            <p>WDD 230</p>
+            <p class="line"></p>
+            <div class="footerText3">
+                <p class="space">Last Updated:</p>
+                <p id="lastTimeModified"></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>
