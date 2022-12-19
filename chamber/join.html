@@ -62,8 +62,21 @@
    
     <main class="join-main">
         <form class="form-join" method="get" action="thankyou.html">
+
             <fieldset>
-                <h1>Contact Information</h1>
+                <h2>Company info</h2>
+                <!-- business-name -->
+                <label class="top" for="business-name">Business name* <input type="text" name="business-name" id="business-name" required></label>
+                
+                <!-- describe-business -->
+                <label class="top" for="describe-business">Describe your business <textarea id="describe-business" name="describe-business" placeholder="..."></textarea></label>
+            
+                <!-- date -->
+                <input type="hidden" name="datetime" id="todayDate">
+            </fieldset>  
+
+            <fieldset>
+                <h1>Contact Info</h1>
                 <!-- first-name -->
                 <label class="top" for="first-name">First name* <input type="text" name="fname" id="first-name" required></label>
 
@@ -77,20 +90,10 @@
                 <label class="top" for="email">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
 
                 <!-- phone-number -->
-                <label class="top" for="phone">Phone-number* <input type="tel" name="phone" id="phone" required></label>
+                <label class="top" for="phone">Telephone* <input type="tel" name="phone" id="phone" required></label>
             </fieldset>
 
-            <fieldset>
-                <h2>Business Information</h2>
-                <!-- business-name -->
-                <label class="top" for="business-name">Business name* <input type="text" name="business-name" id="business-name" required></label>
-                
-                <!-- describe-business -->
-                <label class="top" for="describe-business">Describe your business <textarea id="describe-business" name="describe-business" placeholder="..."></textarea></label>
-            
-                <!-- date -->
-                <input type="hidden" name="datetime" id="todayDate">
-            </fieldset>         
+       
             
             <fieldset class="membership">
 
@@ -98,15 +101,22 @@
                 <h2>Membership</h2>
                 <table>
                     <tr>
-                        <td><label class="sbs" for="non-profit-membership"> <input type="radio" name="member-ship" id="non-profit-membership" value="NPMembership"> Non-Profit Membership</label></td>
-                        <td class="membership-beneficts">$80 p/year - PREMIUM PLAN - Advertisement e-mails about chamber events</td>
+                        <td><label class="sbs" for="non-profit-membership"> <input type="radio" name="member-ship" id="non-profit-membership" value="NPMembership"> Standard Plan</label></td>
+                        <td class="membership-beneficts">$50 p/year - STANDARD PLAN - Membership for new partners of the chamber.</td>
+                        <td><label class="sbs" for="non-profit-membership"> <input type="radio" name="member-ship" id="non-profit-membership" value="NPMembership"> Premium Plan</label></td>
+                        <td class="membership-beneficts">$200 p/year - PREMIUM PLAN - Membership for VIP benefits and resources.</td>
                     </tr>
                     
                 </table>
             </fieldset>
 
+            <br>
+
+
             <!-- button -->
+            <fieldset>
             <input class="submitBtn" type="submit" value="join">
+            <fieldset>
         </form>
     </main>
 
